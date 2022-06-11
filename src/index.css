@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-overlay{
+    padding-top: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.shopping-list-overlay{
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+
+    background: linear-gradient(to right, #E32636, #BA0021, #E32636);
+    border-radius: 10px;
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+.inline{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-list{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 10px;
+    height: 40px;
+}
+
+.input-list:focus{
+    outline: none;
+}
+
+.input-list::placeholder{
+    color: rgb(230, 230, 230);
+}
+
+.button-add{
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
 }
