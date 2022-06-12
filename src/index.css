@@ -14,7 +14,7 @@
     text-align: center;
     padding: 20px;
     width: 400px;
-    height: 300px;
+    min-height: 200px;
 
     background: linear-gradient(to right, #E32636, #BA0021, #E32636);
     border-radius: 10px;
@@ -24,6 +24,20 @@
 .inline{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.clear-list{
+    width: 306px;
+    padding: 10px 0;
+    margin-bottom: 70px;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .input-list{
@@ -53,6 +67,31 @@
     border: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.inline-item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.item-name{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.item-name-false{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.circle{
+    color: rgb(255, 255, 255);
     font-size: 20px;
     cursor: pointer;
 }
