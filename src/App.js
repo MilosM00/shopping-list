@@ -5,7 +5,9 @@ const App = () =>{
     return(
 
         <div className="app-overlay">
+
             <ShoppingList />
+
         </div>
 
     );
